@@ -1,0 +1,6 @@
+class Node:
+  def __init__(self,val,link)
+    self.val=val
+    self.link=link
+n=Node(5,None)
+print(n.val)
