@@ -3,12 +3,8 @@ def factorial(n):
 		return 0
 	elif n == 0 or n == 1: 
 		return 1
-	else: 
-		fact = 1
-		while(n > 1): 
-			fact *= n 
-			n -= 1
-		return fact 
+	elif (n > 1): 
+		return(n*factorial(n-1))
 
 # Driver Code 
 num = int(input());
